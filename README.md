@@ -9,7 +9,7 @@ open-source monitoring tools which can be easily integrated on all major clouds.
  - **IAC**
  Though cloud providers provide their own template better option would be to use **Terraform** to achieve cloud agnostic 
 ## Design diagram
-
+![diagram](cyara.png)
 
 ## Highlevel kube definition 
 - **Deployment configuration**
