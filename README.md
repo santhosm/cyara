@@ -16,9 +16,9 @@ open-source monitoring tools which can be easily integrated on all major clouds.
 		Runtime configuration of the deployments can be mounted as config file rather than using ansible or chef  in deployment definition this provides convenient way for developers to specify the run configuration for their service
 ``` yaml
 volumes:
-	- name: configfile
-	  configMap:
-      name: configfile
+- name: configfile
+  configMap:
+    name: configfile
 ```
 ``` yaml
 volumeMounts:
